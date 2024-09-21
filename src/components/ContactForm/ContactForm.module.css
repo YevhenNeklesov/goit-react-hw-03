@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 15px 5px;
+  width: 260px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  width: 250px;
+}
+
+.button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: rgb(57, 138, 131);
+  width: 100px;
+  height: 40px;
+  &:hover {
+    background-color: rgb(68, 196, 179);
+  }
+}

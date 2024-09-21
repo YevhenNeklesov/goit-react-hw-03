@@ -1,0 +1,13 @@
+.div {
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  width: 262px;
+  margin-bottom: 20px;
+}

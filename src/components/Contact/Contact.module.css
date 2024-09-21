@@ -1,0 +1,28 @@
+.contactContainer {
+  margin-right: 60px;
+}
+.item {
+}
+
+.name {
+}
+
+.number {
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: rgb(57, 138, 131);
+  &:hover {
+    background-color: rgb(68, 196, 179);
+  }
+}
+
+.box {
+  justify-content: space-between;
+  width: 250px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px 5px;
+}
